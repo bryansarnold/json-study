@@ -38,29 +38,65 @@ As it makes sense to you please write the following in JSON format:
 - Has lived in two places recently: 123 Fake street, and 2 Muchinfo Road
 
 ```json
-<!-- your answer here -->
-```
+{"menu": {
+  "id" : "Jason",
+  "value" : "possesions",
+  "cat": "Mr. Kitty",
+  "roomates": [
+    {"Dave"},
+    {"Miller"}
+  ]
+  "fan love": [
+      {"Red Sox"},
+      {"Patriots"},
+      {"Bruins"}
+    ]
+  "Address" : [
+  {"123 Fake street"},
+  {"2 Muchino Road"}
+  ]
+  }
+}
+  }```
 
 ...I forgot, my roomate Dave has two goldfish, one named Bob (he's red) and the
 other named Mr.MagicNibbles (yellow) and bites a bit. Please copy the JSON you
 already wrote and include the information about Dave's fish.
 
 ```json
-<!-- your answer here -->
-```
+{"menu": {
+  "id" : "Jason",
+  "value" : "possesions",
+  "cat": "Mr. Kitty",
+  "roomates": [
+    {"Dave" : "Goldfish" : [
+      {"Bob": "red"},
+      {"Mr. MagicNibbles": "yellow", "bites a bit"}
+      ]},
+    {"Miller"}
+  ]
+  "fan love": [
+      {"Red Sox"},
+      {"Patriots"},
+      {"Bruins"}
+    ]
+  "Address" : [
+  {"123 Fake street"},
+  {"2 Muchino Road"}
+  ]
+  }
+}```
 
 ## JSON Methods
 
 Using the JSON your wrote above, can you write a method on the JSON?
 
 ```json
-<!-- your answer here -->
-```
+You can not write methods on JSON```
 
 ## JSON Comments
 
 Using the JSON your wrote above, can you write a comment in the JSON?
 
 ```json
-<!-- your answer here -->
-```
+You can not write comments in JSON```
